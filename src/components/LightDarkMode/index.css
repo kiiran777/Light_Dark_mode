@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 190px;
+  width: 250px;
+}
+.heading {
+  font-size: 15px;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+}
+.button {
+  background-color: #ffffff;
+  color: #000000;
+}
